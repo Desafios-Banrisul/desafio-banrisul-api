@@ -1,0 +1,115 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "title": "The root schema",
+  "description": "The root schema comprises the entire JSON document.",
+  "default": {},
+  "required": [
+    "data"
+  ],
+  "properties": {
+    "data": {
+      "$id": "#/properties/data",
+      "type": "object",
+      "title": "The data schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": {},
+      "required": [
+        "id",
+        "type",
+        "attributes"
+      ],
+      "properties": {
+        "id": {
+          "$id": "#/properties/data/properties/id",
+          "type": "string",
+          "title": "The id schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": ""
+        },
+        "type": {
+          "$id": "#/properties/data/properties/type",
+          "type": "string",
+          "title": "The type schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": ""
+        },
+        "attributes": {
+          "$id": "#/properties/data/properties/attributes",
+          "type": "object",
+          "title": "The attributes schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": {},
+          "required": [
+            "name",
+            "email",
+            "age",
+            "phone"
+          ],
+          "properties": {
+            "name": {
+              "$id": "#/properties/data/properties/attributes/properties/name",
+              "type": "string",
+              "title": "The name schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": ""
+            },
+            "last-name": {
+              "$id": "#/properties/data/properties/attributes/properties/last-name",
+              "type": "string",
+              "title": "The last-name schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": ""
+            },
+            "email": {
+              "$id": "#/properties/data/properties/attributes/properties/email",
+              "type": "string",
+              "title": "The email schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": ""
+            },
+            "age": {
+              "$id": "#/properties/data/properties/attributes/properties/age",
+              "type": "integer",
+              "title": "The age schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": 0
+            },
+            "phone": {
+              "$id": "#/properties/data/properties/attributes/properties/phone",
+              "type": "string",
+              "title": "The phone schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": ""
+            },
+            "address": {
+              "$id": "#/properties/data/properties/attributes/properties/address",
+              "type": "string",
+              "title": "The address schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": ""
+            },
+            "state": {
+              "$id": "#/properties/data/properties/attributes/properties/state",
+              "type": "string",
+              "title": "The state schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": ""
+            },
+            "city": {
+              "$id": "#/properties/data/properties/attributes/properties/city",
+              "type": "string",
+              "title": "The city schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": ""
+            }
+          },
+          "additionalProperties": true
+        }
+      },
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": true
+}
