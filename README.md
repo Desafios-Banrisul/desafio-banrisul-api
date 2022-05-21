@@ -1,8 +1,8 @@
-#Desafio Time Banrisul API
+# Desafio Time Banrisul API
 
 Este projeto foi desevolvido para capacitacção de testes automatizdos do time DBServer - Banrisul, e tem como objetivo a realização de teste na API [API de Tarefas](https://apidetarefas.docs.apiary.io/%23reference/0/contatos).
 
-##Preparação do Ambiente
+## Preparação do Ambiente
 
 Antes de começar, é necesssário que você tenha instalado em sua máquina as seguintes ferramentas:
 
@@ -14,7 +14,7 @@ Antes de começar, é necesssário que você tenha instalado em sua máquina as 
 - [Rest - Assured](https://rest-assured.io)
 - [Allure Framework](https://docs.qameta.io/allure/)
 
-##Execução do projeto
+## Execução do projeto
 
 * Faça clone do projeto na sua máquina, para isso utilize o comando abaixo
 
